@@ -1,0 +1,32 @@
+{
+  "name": "stars",
+  "version": "0.0.0",
+  "description": "Vertex stars of simplicial complexes",
+  "main": "stars.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "simplicial-complex": "~0.3.2",
+    "uniq": "~0.0.2"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/stars.git"
+  },
+  "keywords": [
+    "star",
+    "vertex",
+    "topology"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "85a6e46d56a604f6138320fd35c85ec9c2b76331"
+}

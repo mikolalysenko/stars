@@ -1,20 +1,20 @@
 {
   "name": "stars",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Vertex stars of simplicial complexes",
   "main": "stars.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "simplicial-complex": "~0.3.2",
-    "uniq": "~0.0.2"
+    "simplicial-complex": "^1.0.0",
+    "uniq": "^1.0.0"
   },
   "devDependencies": {
-    "tap": "~0.4.1"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",

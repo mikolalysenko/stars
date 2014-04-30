@@ -2,13 +2,7 @@ stars
 =====
 Computes vertex stars of a simplicial complex.
 
-Use
-===
-First install:
-
-    npm install stars
-    
-Then use as follows:
+# Example
 
 ```javascript
 var stars = require("stars")
@@ -20,14 +14,23 @@ console.log(stars([
     [1, 3],
     [5, 0]
   ])
-
-//Prints:
-//
-//  [ [ 0, 4 ], [ 0, 1, 3 ], [ 1 ], [ 2, 3 ], [ 2 ], [ 2, 4 ] ]
-//
 ```
 
-### `require("stars")(cells[, numVertices])`
+Output:
+
+```javascript
+[ [ 1, 5 ], [ 0, 2, 3 ], [ 1 ], [ 1, 4, 5 ], [ 3, 5 ], [ 0, 3, 4 ] ]
+```
+
+# Install
+
+```
+npm install stars
+```
+
+# API
+
+#### `require("stars")(cells[, numVertices])`
 Computes the vertex stars of a simplicial complex.
 
 * `cells` is an array of vertex indices
